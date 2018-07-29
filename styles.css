@@ -1,0 +1,25 @@
+@font-face { font-family: 'Comfortaa'; src: url('fonts/Comfortaa/Comfortaa-Regular.ttf'); }
+@font-face { font-family: 'Comfortaa-bold'; src: url('fonts/Comfortaa/Comfortaa-Bold.ttf'); }
+body{
+  font-size:3rem;;
+  font-family: 'Comfortaa', regular;
+  padding:40px;
+}
+div{
+  width:70%;
+}
+p{
+  width:70%;
+}
+.permission{
+  margin-left:10vw;
+}
+/*for desktop>>>>>>>>>>>>>>>>>>:*/
+@media screen and (min-width: 1024px){
+  body{
+      font-size:1rem;
+  }
+  .header{
+    font-size: 1.5rem;
+  }
+}
